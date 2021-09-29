@@ -227,8 +227,8 @@ ggplot(gapminder2007, aes(x=fct_reorder(continent,ncountries),
   geom_col() +
   coord_flip() +
   labs(y="Number of Countries", x="") +
-#  theme(legend.position = "none") +
-  guides(fill=FALSE)      # either last 2 lines works to remove legend
+  theme(legend.position = "none") +
+#  guides(fill=FALSE)      # either last 2 lines works to remove legend
 
 # removing legends ..........................
 # a couple of references:

@@ -3,7 +3,7 @@
 #             (also on RStudio Server and MacBook)
 # Author: J. Bailer
 #
-# Revised: 01 Feb 2021
+# Revised:  Aug 2021
 
 # can see working directory - if start as a new project, then all saved there
 getwd()
@@ -389,6 +389,7 @@ ggplot() +
 
 # homework ==================================================================
 
+# selecting rows that correspond to country data from 2007
 gapminder2007 <- gapminder %>% 
   filter(year==2007)
 
